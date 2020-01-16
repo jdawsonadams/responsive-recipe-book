@@ -13,12 +13,21 @@ html {
   font-family: williams-caslon-text, serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5em;
 }
 
 .typewriter {
   font-family: ff-nexus-typewriter, sans-serif;
   font-style: normal;
   font-weight: 400;
+}
+
+.white {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -32,6 +41,15 @@ nav li {
 
 nav a {
   color: #000;
+  text-decoration: none;
+}
+
+.shading {
+  background-color: #d9d9d9;
+}
+
+.black {
+  color: black;
 }
 
 .topnav {
@@ -47,6 +65,10 @@ nav a {
   position: absolute;
   bottom: 8px;
   right: 16px;
+}
+
+.tinybanner {
+  padding-top: 6.5em;
 }
 
   .cards {
@@ -102,13 +124,53 @@ nav a {
   .cards a {
     display: inline-block;
     padding: .5em .75em;
-    background-color: #ccc;
     border-radius: 4px;
-    color: #000;
+    color: #6e6e6e;
     text-decoration: none;
   }
 
   .cards a:hover {
     background-color: #fff;
-    color: #fff;
+    color: #000;
   }
+
+@media only screen and (min-width: 25em)  {
+
+  .tinybanner {
+    padding-top: 4.5em;
+  }
+
+  .linzer {
+    padding-top: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 38em)  {
+
+  .tinybanner {
+    padding-top: 0;
+  }
+
+  .linzer {
+    padding-top: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 60em)  {
+
+  .tinybanner {
+    padding-top: 0;
+  }
+
+  .linzer {
+    padding-top: 1em;
+  }
+
+  .paragraphs {
+    column-count: 2;
+    column-gap: 2em;
+  }
+
+}
