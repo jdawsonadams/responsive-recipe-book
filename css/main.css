@@ -6,7 +6,11 @@ html {
 .sans-serif {
   font-family: brandon-grotesque, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
+}
+
+.super-bold {
+  font-weight: 900;
 }
 
 .serif {
@@ -160,6 +164,10 @@ nav a {
     padding-top: 1em;
   }
 
+  .mainnav {
+    text-align: right;
+  }
+
 }
 
 @media only screen and (min-width: 60em)  {
@@ -175,6 +183,18 @@ nav a {
   .paragraphs {
     column-count: 2;
     column-gap: 2em;
+  }
+
+  .mainnav {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 90em)  {
+
+  .mainnav {
+    text-align: right;
   }
 
 }
