@@ -79,68 +79,68 @@ nav a {
   padding-top: 6.5em;
 }
 
-  .cards {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-  }
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
 
-  .cards li {
-    display: inline-block;
-    margin: 0 .5em 1em;
-    max-width: 20em;
-    padding: 1em;
-    background-color: #fff;
-    border: 3px solid #d9d9d9;
-    border-radius: 10px;
-    text-align: left;
-  }
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #fff;
+  border: 3px solid #d9d9d9;
+  border-radius: 10px;
+  text-align: left;
+}
 
-  .cards img {
-    display: block;
-    margin: 0 auto 1rem;
-  }
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
 
-  .cards strong {
-    display: block;
-    margin-bottom: 1rem;
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
 
-    font-size: 1.125rem;
-  }
+  font-size: 1.125rem;
+}
 
-  .cards dl {
-    margin-bottom: 1rem;
-  }
+.cards dl {
+  margin-bottom: 1rem;
+}
 
-  .cards dt {
-    display: inline-block;
-    width: 6em;
-    font-style: italic;
-  }
+.cards dt {
+  display: inline-block;
+  width: 6em;
+  font-style: italic;
+}
 
-  .cards dd {
-    display: inline-block;
-    margin: 0;
-    min-width: 9em;
-  }
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
 
-  .cards div {
-    text-align: center;
-  }
+.cards div {
+  text-align: center;
+}
 
-  .cards a {
-    display: inline-block;
-    padding: .5em .75em;
-    border-radius: 4px;
-    color: #6e6e6e;
-    text-decoration: none;
-  }
+.cards a {
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: 4px;
+  color: #6e6e6e;
+  text-decoration: none;
+}
 
-  .cards a:hover {
-    background-color: #fff;
-    color: #000;
-  }
+.cards a:hover {
+  background-color: #fff;
+  color: #000;
+}
 
 @media only screen and (min-width: 25em)  {
 
