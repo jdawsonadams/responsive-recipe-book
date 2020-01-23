@@ -92,7 +92,7 @@ nav a {
     max-width: 20em;
     padding: 1em;
     background-color: #fff;
-    border: 3px solid #e2e2e2;
+    border: 3px solid #d9d9d9;
     border-radius: 10px;
     text-align: left;
   }
@@ -152,6 +152,10 @@ nav a {
     padding-top: 1em;
   }
 
+  a {
+
+  }
+
 }
 
 @media only screen and (min-width: 38em)  {
@@ -167,6 +171,7 @@ nav a {
   .mainnav {
     text-align: right;
   }
+
 
 }
 
@@ -187,6 +192,14 @@ nav a {
 
   .mainnav {
     text-align: right;
+  }
+
+  .navitems {
+    text-align: right;
+  }
+
+  .navfirst {
+    text-align: left;
   }
 
 }
